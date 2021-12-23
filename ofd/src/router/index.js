@@ -21,13 +21,13 @@ const routes = [
     name: "Homes",
 
     component: () => import("../views/Homes.vue"),
-  },
+  
   {
     path: "/pizza",
     name: "PizzaHut",
 
     component: () => import("../views/PizzaHut.vue"),
-  },
+  
   {
     path: "/parivar",
     name: "Parivar",
@@ -39,7 +39,7 @@ const routes = [
     name: "Icecream",
 
     component: () => import("../views/Icecream.vue"),
-  },
+  
   {
     path: "/buy",
     name: "Buy",
